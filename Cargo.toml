@@ -1,0 +1,18 @@
+[package]
+name = "perspicuity_formula"
+version = "0.1.0"
+edition = "2021"
+description = "Calculate Flesh Reading Ease for a given text and language."
+repository = "https://github.com/astuanax/perspicuity_formula"
+license = "MIT"
+keywords = ["textanalysis", "readability", "flesh", "languages"]
+
+
+[lib]
+name = "perspicuity_formula"
+path = "src/lib.rs"
+
+
+
+[dependencies]
+regex = "1.10.6"
